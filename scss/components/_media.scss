@@ -1,0 +1,20 @@
+@media (min-width: 800px) {
+   
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "sedans suvs luxury";
+        width: 65%;
+        margin: 10% auto;
+
+    .card {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        .btn {
+            max-width: 170px;
+        }
+    }
+    }
+}

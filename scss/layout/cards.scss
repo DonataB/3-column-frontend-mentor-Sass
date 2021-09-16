@@ -1,0 +1,18 @@
+.card {
+    padding: 1.9rem;
+}
+
+.sedans {
+    background-color: $sedans-background;
+    grid-area: sedans;
+}
+
+.suvs {
+    background-color: $suvs-background;
+    grid-area: suvs;
+}
+
+.luxury {
+    background-color: $luxury-background;
+    grid-area: luxury;
+}

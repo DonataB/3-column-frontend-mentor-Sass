@@ -1,0 +1,25 @@
+.btn {
+    padding: .8rem 2.7rem;
+    border-radius: 100px;
+    font-family: $paragraph-font;
+    border: 2px solid $background-heading-buttons--color;
+    margin-bottom: 1.2rem;
+}
+
+.sedans .btn {
+    color: $sedans-background;
+}
+
+.suvs .btn {
+    color: $suvs-background;
+}
+
+.luxury .btn {
+    color: $luxury-background;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: $background-heading-buttons--color;
+    cursor: pointer;
+}
